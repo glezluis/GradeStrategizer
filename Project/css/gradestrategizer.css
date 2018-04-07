@@ -1,0 +1,123 @@
+
+/*size of body*/
+body{
+	height: 800px;
+	background-color: rgb( 239, 249, 255 );
+}
+/*navigation bar*/
+#navbar{
+	background-color: rgb( 64, 64, 64 );
+	position: absolute;
+	width: 970px;
+}
+/*navigation bar links*/
+#navbar a{
+	float: left;
+	color: rgb( 255, 255, 255 );
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;	/*gets rid of underline on a link */
+}
+/*header box*/
+#header{
+	background-color: rgb( 0, 51, 102 );
+	padding: 10px;
+	position: absolute;
+	top: 9%;
+}
+/*header*/
+#header h1{
+	color: rgb( 255, 255, 255 );
+}
+/*login box*/
+#loginBox{
+	position: relative;
+	float: right;
+	padding: 5px 20px;
+	border-style: solid;
+	border-color: black;
+}
+/*login title in the box*/
+#loginBox #loginTitle{
+	text-align: center;
+}
+
+/*upload box*/
+#uploadBox{
+	width: 400px;
+	height: 500px;
+	top: 170px;
+	position: relative;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	overflow: hidden;
+	text-align: center;
+}
+#uploadBox #uploadB{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	font-size: 18px;
+}
+
+/*grade calculation box*/
+#gradeCalcBox{
+	width: 400px;
+	height: 500px;
+	top: 170px;
+	left: 5px;
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	overflow: hidden;
+}
+#gradeCalcBox p{
+	width: 400px;
+	text-align: center;
+	top: 170px;
+	left: 410px;
+}
+
+/*score calculation box*/
+#scoreCalcBox{
+	width: 400px;
+	height: 500px;
+	top: 170px;
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	overflow: hidden
+}
+
+/*clear button*/
+#clearBox{
+	width: 50px;
+	position: relative;
+	top: 180px;
+	left: 360px;
+}
+#clearBox #clearB{
+	font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
